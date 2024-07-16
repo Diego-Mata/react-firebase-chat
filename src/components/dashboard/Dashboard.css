@@ -1,0 +1,44 @@
+/* dashboard.css */
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .dashboard {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    padding: 1rem;
+  }
+  
+  .dashboard > * {
+    margin-bottom: 1rem;
+  }
+  
+  .content-area {
+    flex: 1;
+    overflow-y: auto;
+    padding: 1rem;
+    width: 100%;
+  }
+  
+  .content-area > * {
+    margin-bottom: 2rem;
+  }
+  
+  button[onClick] {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    background-color: #337ab7;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button[onClick]:hover {
+    background-color: #23527c;
+  }

@@ -1,6 +1,6 @@
 .detail {
   flex: 1;
-  overflow: hidden;
+  overflow: scroll;
 
   .user {
     padding: 30px 20px;
