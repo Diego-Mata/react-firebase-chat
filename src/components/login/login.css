@@ -4,6 +4,7 @@
   display: flex;
   align-items: center;
   gap: 100px;
+  overflow: hidden;
 
   .item {
     flex: 1;
@@ -23,7 +24,7 @@
         padding: 20px;
         border: none;
         outline: none;
-        background-color: rgba(17, 25, 40, 0.6);
+        background-color: rgba(56, 15, 80, 0.6);
         color: white;
         border-radius: 5px;
       }
@@ -49,7 +50,7 @@
         width: 100%;
         padding: 20px;
         border: none;
-        background-color: #1f8ef1;
+        background-color: rgba(124, 20, 184, 0.6);
         color: white;
         border-radius: 5px;
         cursor: pointer;
@@ -57,7 +58,7 @@
 
         &:disabled {
           cursor: not-allowed;
-          background-color: #1f8ff19c;
+          background-color: rgba(87, 9, 133, 0.6);
         }
       }
     }

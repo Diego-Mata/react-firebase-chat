@@ -1,4 +1,5 @@
 .addUser{
+  overflow: hidden;
   width: max-content;
   height: max-content;
   padding: 30px;
